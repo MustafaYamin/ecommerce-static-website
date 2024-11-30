@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="bg-[#FFFFFF] flex items-center justify-center md:justify-normal gap-3 lg:w-[349px] md:w-[279px] w-[250px] lg:h-[48px] h-[30px] rounded-[62px] lg:py-3 lg:px-1">
               <Image
                 className="md:ml-3"
-                src="/Icons/email.jpg"
+                src="/Icons/e-mail.png"
                 alt="email icon"
                 height={15}
                 width={20}
@@ -121,23 +121,46 @@ export default function Footer() {
             Shop.co © 2000-2023, All Rights Reserved
           </div>
           <div className="w-[281px]  h-[30px] gap-[12px] flex justify-evenly">
-
-            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]" >
-              <Image src="/Images/visa.jpg" alt="visa card option" width={32} height={10}  />
+            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]">
+              <Image
+                src="/Images/visa.png"
+                alt="visa card option"
+                width={32}
+                height={10}
+              />
             </div>
-            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]" >
-              <Image src="/Images/mastercard.jpg" alt="Mastercard option" width={32} height={10}  />
+            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]">
+              <Image
+                src="/Images/mastercard.png"
+                alt="Mastercard option"
+                width={32}
+                height={10}
+              />
             </div>
-            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]" >
-              <Image src="/Images/paypal.jpg" alt="Paypal option" width={32} height={10}  />
+            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]">
+              <Image
+                src="/Images/paypal.png"
+                alt="Paypal option"
+                width={32}
+                height={10}
+              />
             </div>
-            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]" >
-              <Image src="/Images/apple-pay.jpg" alt="Apple Pay option" width={32} height={10}  />
+            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]">
+              <Image
+                src="/Images/apple-pay.png"
+                alt="Apple Pay option"
+                width={32}
+                height={10}
+              />
             </div>
-            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]" >
-              <Image src="/Images/gpay.jpg" alt="G Pay option" width={32} height={10}  />
+            <div className="flex justify-center items-center w-[46px] h-[30px] rounded-[5.38px] bg-[#FFFFFF]">
+              <Image
+                src="/Images/gpay.png"
+                alt="G Pay option"
+                width={32}
+                height={10}
+              />
             </div>
-
           </div>
         </div>
       </div>
